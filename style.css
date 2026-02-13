@@ -27,7 +27,7 @@
     .container {
     width: 95%;
     max-width: 500px;
-    max-height: 90vh;
+    max-height: 100vh;
     overflow-y: auto;
     background-image: url('image/yaz\ 1.jpg');
     background-size: cover;
@@ -152,3 +152,9 @@
     opacity: 0;
     }
     }
+
+    @media (max-width: 600px) {
+    .container {
+    width: 90%;
+    }
+}
